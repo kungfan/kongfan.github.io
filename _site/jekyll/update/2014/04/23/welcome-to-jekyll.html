@@ -30,7 +30,10 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
 <p>Jekyll also offers powerful support for code snippets:</p>
 
-<div class="highlight"><pre><code class="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+<p>2014-04-26 22:07:09 +0800</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="n">k</span>
+<span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
   <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
 <span class="k">end</span>
 <span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
@@ -40,6 +43,19 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 <p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/jekyll">Jekyll&#39;s GitHub repo</a>.</p>
 
 </div>
+
+<!--add baye.me comments on the page -->
+<div id="bm_comments"></div>
+<script type="text/javascript">
+var bm_url = "";        // 页面链接，默认当前页面URL
+var bm_title = "";      // 页面标题，默认为 <title>
+var bm_identify = "";// 页面ID,默认为bm_url,如果您的一个页面有多个URL但又想显示相同的评论可以设置此参数。
+var bm_placeholder = ""; // 一个ID，将评论显示在此元素中，默认为 bm_comments。
+    (function(){
+    var script = document.createElement('script'); script.type = "text/javascript";
+    script.src = "http://baye.me/script?key=7aa9057ecc6511e3aa9d123143053964";
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script); })();
+</script>
 
 
           <div class="footer">
@@ -59,6 +75,9 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
             </div>
           </div>
         </div>
+
+<!-- add "fork me gon github logo at the top right conner on the screen -->
+<a href="http://github.com/kongfan"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
 
     </body>
 </html>
