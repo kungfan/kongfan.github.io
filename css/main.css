@@ -169,7 +169,13 @@ a:visited { color: #a0a; }
 
 #bm_comments_container .bm_comment .bm_avatar img{
 /* avatar img */
-margin: 0px 5px 2px 0px;
 border: none;
 height: 0px;
 width: 0px;
+}
+
+#bm_comments_container .bm_reply .bm_avatar img{
+/* 回复的 头像 */
+width: 0px;
+height: 0px;
+}
