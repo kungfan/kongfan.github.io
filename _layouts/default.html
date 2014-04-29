@@ -17,8 +17,9 @@
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+            <h1 class="title"><a href="/">Kongfan's Home</a></h1>
+            <a class="extra" href="/">Blog</a>
+            <a class="extra" href="/">About</a>
           </div>
 
           {{ content }}
@@ -26,23 +27,18 @@
           <div class="footer">
             <div class="contact">
               <p>
-                KongFan<br />
-                founder of pharmacist<br />
+                KongFan@github.com<br />
                 kongfan@outlook.com
               </p>
             </div>
             <div class="contact">
               <p>
                 <a href="https://github.com/yourusername">github.com/kongfan</a><br />
-                <a href="https://twitter.com/yourusername">weibo.com/kungfan</a><br />
                 <a href="mailto:kongfan@outlook.com">Contact kongfan</a><br />
               </p>
             </div>
           </div>
         </div>
-
-<!-- add "fork me gon github logo at the top right conner on the screen -->
-<a href="http://github.com/kongfan"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-
+        {% include plugins.html %}
     </body>
 </html>
