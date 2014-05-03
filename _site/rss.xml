@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Kongfan's blog</title>
+    <link>kongfan.github.io</link>
+    <description>RSS feed for Kongfan's blog</description>
+    <pubDate>Thu, 01 May 2014 00:00:00 +0800</pubDate>
+    <item>
+      <title>Syntax Of Markdown</title>
+      <link>kongfan.github.io/2014/05/01/syntax-of-markdown.html</link>
+      <description>&lt;!-- This is an english edition document of markdown syntax : --&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://example.com/&quot; title=&quot;Optional Title Headersre&quot;&gt;foo&lt;/a&gt;:layout http://example.com/  &amp;quot;Optional Title Here&amp;quot;&lt;/p&gt;
+</description>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0800</pubDate>
+      <guid>kongfan.github.io/2014/05/01/syntax-of-markdown.html</guid>
+      <dc:date>2014-05-01T00:00:00+08:00</dc:date>
+    </item>
+    <item>
+      <title>Memorandu Of Vim</title>
+      <link>kongfan.github.io/2014/05/01/memorandu-of-vim.html</link>
+      <description>&lt;p&gt;There is a memorandum reminding me of vim &lt;/p&gt;
+</description>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0800</pubDate>
+      <guid>kongfan.github.io/2014/05/01/memorandu-of-vim.html</guid>
+      <dc:date>2014-05-01T00:00:00+08:00</dc:date>
+    </item>
+    <item>
+      <title>Bash Shell Shortcuts</title>
+      <link>kongfan.github.io/jekyll/update/2014/05/01/bash-shell-shortcuts.html</link>
+      <description>&lt;p&gt;Bash, which is the default shell in Linux contains a whole lot of key bindings which makes it really easy to use.  The following &lt;a href=&quot;http://en.wikipedia.org/wiki/Bash_shell&quot;&gt;Bash&lt;/a&gt; shortcuts work when using default (Emacs) key bindings. Vi-bindings can be enabled by running set -o vi.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0800</pubDate>
+      <guid>kongfan.github.io/jekyll/update/2014/05/01/bash-shell-shortcuts.html</guid>
+      <dc:date>2014-05-01T00:00:00+08:00</dc:date>
+    </item>
+    <item>
+      <title>Something Need To Fix Up</title>
+      <link>kongfan.github.io/2014/04/29/something-need-to-fix-up.html</link>
+      <description>&lt;p&gt;Q : how to quote code section such as &lt;code&gt;{ % include disqus_comment % }&lt;/code&gt; ?&lt;br&gt;
+A :&lt;/p&gt;
+</description>
+      <pubDate>Tue, 29 Apr 2014 00:00:00 +0800</pubDate>
+      <guid>kongfan.github.io/2014/04/29/something-need-to-fix-up.html</guid>
+      <dc:date>2014-04-29T00:00:00+08:00</dc:date>
+    </item>
+    <item>
+      <title>Adding Disqus To Github Pages</title>
+      <link>kongfan.github.io/update/2014/04/27/Adding-DISQUS-to-github-pages.html</link>
+      <description>&lt;p&gt;Github pages is a good place for hosting static blog on the internet, youcan
+publish your web content on this platform for free.In addition to suporting
+HTML,Github pages aslo support jekyll , a simple static site generator writing 
+by ruby .It&amp;#39;s a good choice for you to setup your blog by using jekyll .The
+philosophy of jekyll is jekyll does what you want it to do , no more ,no less.
+jekyll gets you out of your way and makes you focus on writing your blog .&lt;br&gt;
+But just like many other static website or blog, the disadvantage of jekyll is 
+blatantly obvious , the readers of your blog can&amp;#39;t interact with your posts
+because there is no comment function for your website .Thanks to the Disqus-a
+blog comment system , it help us solve this problem elegantly .&lt;/p&gt;
+
+&lt;p&gt;now I&amp;#39;ll show you how to add disqus to jekyll step by step. (&lt;strong&gt;a memo for myself&lt;/strong&gt;)&lt;/br&gt;
+first of all , you need to creat a new file named disqus.html in _ includes 
+directory and copy the &amp;quot;generic code&amp;quot; to this file . it look like this :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;disqus_thread&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/javascript&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/* * * required: replace example with your forum shortname * * */&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;disqus_shortname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;kongfan&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/* * * DON&amp;#39;T EDIT BELOW THIS LINE * * */&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dsq&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+        &lt;span class=&quot;nx&quot;&gt;dsq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;dsq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;dsq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;//&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;disqus_shortname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;.disqus.com/embed.js&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;head&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; 
+        &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;body&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dsq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    
+
+&lt;p&gt;and then , a html file named accout _ disqus should be created as well . typing
+the follow code in this file :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/javascript&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/* * * required: replace example with your forum shortname * * */&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;disqus_shortname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;kongfan&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+
+&lt;span class=&quot;cm&quot;&gt;/* * * DON&amp;#39;T EDIT BELOW THIS LINE * * */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;//&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;disqus_shortname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;.disqus.com/count.js&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;HEAD&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt;
+     &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;BODY&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}());&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+ 
+
+&lt;p&gt;In the third step , you need to know something about &lt;a href=&quot;http://liquidmarkup.org/&quot;&gt;liquid&lt;/a&gt; and &lt;a href=&quot;http://zh.wikipedia.org/zh-cn/YAML&quot;&gt;yaml&lt;/a&gt;.
+you can use include tag to add some code to   ~/ _  layout/post.html at the
+bottom of this file. typing the code as follow : &lt;/p&gt;
+</description>
+      <pubDate>Sun, 27 Apr 2014 00:00:00 +0800</pubDate>
+      <guid>kongfan.github.io/update/2014/04/27/Adding-DISQUS-to-github-pages.html</guid>
+      <dc:date>2014-04-27T00:00:00+08:00</dc:date>
+    </item>
+    <item>
+      <title>Welcome to Jekyll!</title>
+      <link>kongfan.github.io/jekyll/update/2014/04/23/welcome-to-jekyll.html</link>
+      <description>&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 23 Apr 2014 02:34:18 +0800</pubDate>
+      <guid>kongfan.github.io/jekyll/update/2014/04/23/welcome-to-jekyll.html</guid>
+      <dc:date>2014-04-23T02:34:18+08:00</dc:date>
+    </item>
+    <dc:date>2014-05-01T00:00:00+08:00</dc:date>
+  </channel>
+</rss>

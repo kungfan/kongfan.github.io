@@ -64,19 +64,24 @@ In the third step , you need to know something about [liquid][1] and [yaml][2].
 you can use include tag to add some code to   ~/ _  layout/post.html at the
 bottom of this file. typing the code as follow : 
 
+`
+
 {% highlight html %}
 ---
 layout: default
 ---
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
+
 <div class="post">
 {{ content }}
 </div>
-\{% include disqus_comment.html %}
-\{% include count_comment.html %}
+{ % include disqus_comment.html % }
+{ % include count_comment.html % }
+{% endhighlight html %}
 
-k% endhighlight html %}
-
+`
 [1]:http://liquidmarkup.org/
 [2]:http://zh.wikipedia.org/zh-cn/YAML
+
+

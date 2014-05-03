@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Bash Shell Shortcuts</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/"> Home </a></h1>
+            <a class="extra" href="/">Blog</a>
+            <a class="extra" href="/">About</a>
+          </div>
+
+          <h2>Bash Shell Shortcuts</h2>
+<p class="meta">01 May 2014</p>
+
+<div class="post">
+<p>Bash, which is the default shell in Linux contains a whole lot of key bindings which makes it really easy to use.  The following <a href="http://en.wikipedia.org/wiki/Bash_shell">Bash</a> shortcuts work when using default (Emacs) key bindings. Vi-bindings can be enabled by running set -o vi.</p>
+
+<p><strong>Note</strong> : For shortcuts involving ⎇ Alt, you may be able to use ⎋ Esc instead.
+    Sometimes, you must use ⎋ Esc instead of ⎇ Alt, because the ⎇ Alt shortcut conflicts with another shortcut.</p>
+
+<div class="highlight"><pre><code class="text language-text" data-lang="text">Tab ↹    : Autocompletes from the cursor position.
+^ Ctrl+a : Moves the cursor to the line start (equivalent to the key ⇱ Home).
+^ Ctrl+b : Moves the cursor back one character (equivalent to the key ←).
+^ Ctrl+c : Sends the signal SIGINT to the current task, which aborts and closes it.
+^ Ctrl+d : Sends an EOF marker, which  closes the current shell . 
+^ Ctrl+e : (end) moves the cursor to the line end (equivalent to the key ⇲ End).
+^ Ctrl+f : Moves the cursor forward one character (equivalent to the key →).
+^ Ctrl+g : Abort the research and restore the original line.
+^ Ctrl+h : Deletes the previous character (same as backspace).
+^ Ctrl+i : Equivalent to the tab key.
+^ Ctrl+j : Equivalent to the enter key.
+^ Ctrl+k : Clears the line content after the cursor and copies it into the clipboard.
+^ Ctrl+l : Clears the screen content (equivalent to the command clear).
+^ Ctrl+n : (next) recalls the next command (equivalent to the key ↓).
+^ Ctrl+o : Executes the found command from history
+^ Ctrl+p : (previous) recalls the prior command (equivalent to the key ↑).
+^ Ctrl+r : (research) recalls the last command including the specified character(s). 
+^ Ctrl+s : Go back to the next more recent command of the research .
+^ Ctrl+t : Transpose the previous two characters.
+^ Ctrl+u : Clears the line content before the cursor and copies it into the clipboard.
+^ Ctrl+v : If the next input is also a control sequence, type it literally 
+^ Ctrl+w : Clears the word before the cursor and copies it into the clipboard.
+^ Ctrl+x ^ Ctrl+e : Edits the current line in the $EDITOR program, or vi if undefined.
+^ Ctrl+x ^ Ctrl+r : Read in the contents of the inputrc file,
+           and incorporate any bindings or variable assignments found there.
+^ Ctrl+x ^ Ctrl+u : Incremental undo, separately remembered for each line.
+^ Ctrl+x ^ Ctrl+v : Display version information about the current instance of bash.
+^ Ctrl+x ^ Ctrl+x : Alternates the cursor with its old position. .
+^ Ctrl+y : (yank) adds the clipboard content from the cursor position.
+^ Ctrl+z : Sends the signal SIGTSTP to the current task, which suspends it. 
+^ Ctrl+_ : Incremental undo, separately remembered for each line.
+⎇ Alt+b : (backward) moves the cursor backward one word.
+⎇ Alt+c : Capitalizes the character under the cursor and moves to the end of the word.
+⎇ Alt+d : Cuts the word after the cursor.
+⎇ Alt+f : (forward) moves the cursor forward one word.
+⎇ Alt+l : Lowers the case of every character 
+⎇ Alt+r : Cancels the changes and puts back the line as it was in the history.
+⎇ Alt+u : Capitalizes every character 
+⎇ Alt+. : Insert the last argument to the previous command 
+</code></pre></div>
+
+<hr>
+
+<p>The most commonly used shortcuts are listed below :</p>
+
+<h2>CTRL Key Bound</h2>
+
+<div class="highlight"><pre><code class="text language-text" data-lang="text">Ctrl + a - Jump to the start of the line
+Ctrl + b - Move back a char
+Ctrl + c - Terminate the command
+Ctrl + d - Delete from under the cursor
+Ctrl + e - Jump to the end of the line
+Ctrl + f - Move forward a char
+Ctrl + k - Delete to EOL
+Ctrl + l - Clear the screen
+Ctrl + r - Search the history backwards
+Ctrl + R - Search the history backwards with multi occurrence
+Ctrl + u - Delete backward from cursor
+Ctrl + xx - Move between EOL and current cursor position
+Ctrl + x @ - Show possible hostname completions
+Ctrl + z - Suspend/ Stop the command
+</code></pre></div>
+
+<h2>Alt Key Bound</h2>
+
+<div class="highlight"><pre><code class="text language-text" data-lang="text">Alt + &lt; - Move to the first line in the history
+Alt + &gt; - Move to the last line in the history
+Alt + ? - Show current completion list
+Alt + * - Insert all possible completions
+Alt + / - Attempt to complete filename
+Alt + . - Yank last argument to previous command
+Alt + b - Move backward
+Alt + c - Capitalize the word
+Alt + d - Delete word
+Alt + f - Move forward
+Alt + l - Make word lowercase
+Alt + n - Search the history forwards non-incremental
+Alt + p - Search the history backwards non-incremental
+Alt + r - Recall command
+Alt + t - Move words around
+Alt + u - Make word uppercase
+Alt + back-space - Delete backward from cursor
+</code></pre></div>
+
+<h2>More Special Keybindings</h2>
+
+<div class="highlight"><pre><code class="text language-text" data-lang="text">Here &quot;2T&quot; means Press TAB twice
+$ 2T - All available commands(common)
+$ (string)2T - All available commands starting with (string)
+$ /2T - Entire directory structure including Hidden one
+$ 2T - Only Sub Dirs inside including Hidden one
+$ *2T - Only Sub Dirs inside without Hidden one
+$ ~2T - All Present Users on system from &quot;/etc/passwd&quot;
+$ $2T - All Sys variables
+$ @2T - Entries from &quot;/etc/hosts&quot;
+$ =2T - Output like ls or dir
+</code></pre></div>
+
+</div>
+
+<!-- <div id="bm_comments"></div> -->
+<!-- <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'kongfan'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+ -->
+<!-- <script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'kongfan'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+    
+ -->
+<!-- <script type="text/javascript">
+    var script = document.createElement('script');
+    script.type = "text/javascript";
+    script.src = "http://baye.me/script?key=7aa9057ecc6511e3aa9d123143053964";
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+</script>  
+ -->
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                KongFan@github.com<br />
+		kongfan@outlook.com<br />
+              </p>
+            </div>
+            <div class="contact">
+              <p>
+                <a href="https://github.com/yourusername">github.com/kongfan</a><br />
+                <a href="mailto:kongfan@outlook.com">Contact kongfan</a><br />
+              </p>
+            </div>
+	    <div><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width: 0; margin-top: 10px; float: right;" src="http://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+</div>
+          </div>
+        </div>
+        <!-- add "fork me on github logo at the top right conner on the screen -->
+<a href="http://github.com/kongfan"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+
+    </body>
+</html>
