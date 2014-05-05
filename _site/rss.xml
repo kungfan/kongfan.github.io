@@ -6,51 +6,51 @@
   xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
   <channel>
     <title>Kongfan's blog</title>
-    <link>kongfan.github.io</link>
+    <link>http://kongfan.github.io</link>
     <description>RSS feed for Kongfan's blog</description>
     <pubDate>Thu, 01 May 2014 00:00:00 +0800</pubDate>
     <item>
       <title>Syntax Of Markdown</title>
-      <link>kongfan.github.io/2014/05/01/syntax-of-markdown.html</link>
+      <link>http://kongfan.github.io/2014/05/01/syntax-of-markdown.html</link>
       <description>&lt;!-- This is an english edition document of markdown syntax : --&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://example.com/&quot; title=&quot;Optional Title Headersre&quot;&gt;foo&lt;/a&gt;:layout http://example.com/  &amp;quot;Optional Title Here&amp;quot;&lt;/p&gt;
 </description>
       <pubDate>Thu, 01 May 2014 00:00:00 +0800</pubDate>
-      <guid>kongfan.github.io/2014/05/01/syntax-of-markdown.html</guid>
+      <guid>http://kongfan.github.io/2014/05/01/syntax-of-markdown.html</guid>
       <dc:date>2014-05-01T00:00:00+08:00</dc:date>
     </item>
     <item>
       <title>Memorandu Of Vim</title>
-      <link>kongfan.github.io/2014/05/01/memorandu-of-vim.html</link>
+      <link>http://kongfan.github.io/2014/05/01/memorandu-of-vim.html</link>
       <description>&lt;p&gt;There is a memorandum reminding me of vim &lt;/p&gt;
 </description>
       <pubDate>Thu, 01 May 2014 00:00:00 +0800</pubDate>
-      <guid>kongfan.github.io/2014/05/01/memorandu-of-vim.html</guid>
+      <guid>http://kongfan.github.io/2014/05/01/memorandu-of-vim.html</guid>
       <dc:date>2014-05-01T00:00:00+08:00</dc:date>
     </item>
     <item>
       <title>Bash Shell Shortcuts</title>
-      <link>kongfan.github.io/jekyll/update/2014/05/01/bash-shell-shortcuts.html</link>
+      <link>http://kongfan.github.io/jekyll/update/2014/05/01/bash-shell-shortcuts.html</link>
       <description>&lt;p&gt;Bash, which is the default shell in Linux contains a whole lot of key bindings which makes it really easy to use.  The following &lt;a href=&quot;http://en.wikipedia.org/wiki/Bash_shell&quot;&gt;Bash&lt;/a&gt; shortcuts work when using default (Emacs) key bindings. Vi-bindings can be enabled by running set -o vi.&lt;/p&gt;
 </description>
       <pubDate>Thu, 01 May 2014 00:00:00 +0800</pubDate>
-      <guid>kongfan.github.io/jekyll/update/2014/05/01/bash-shell-shortcuts.html</guid>
+      <guid>http://kongfan.github.io/jekyll/update/2014/05/01/bash-shell-shortcuts.html</guid>
       <dc:date>2014-05-01T00:00:00+08:00</dc:date>
     </item>
     <item>
       <title>Something Need To Fix Up</title>
-      <link>kongfan.github.io/2014/04/29/something-need-to-fix-up.html</link>
+      <link>http://kongfan.github.io/2014/04/29/something-need-to-fix-up.html</link>
       <description>&lt;p&gt;Q : how to quote code section such as &lt;code&gt;{ % include disqus_comment % }&lt;/code&gt; ?&lt;br&gt;
 A :&lt;/p&gt;
 </description>
       <pubDate>Tue, 29 Apr 2014 00:00:00 +0800</pubDate>
-      <guid>kongfan.github.io/2014/04/29/something-need-to-fix-up.html</guid>
+      <guid>http://kongfan.github.io/2014/04/29/something-need-to-fix-up.html</guid>
       <dc:date>2014-04-29T00:00:00+08:00</dc:date>
     </item>
     <item>
       <title>Adding Disqus To Github Pages</title>
-      <link>kongfan.github.io/update/2014/04/27/Adding-DISQUS-to-github-pages.html</link>
+      <link>http://kongfan.github.io/update/2014/04/27/Adding-DISQUS-to-github-pages.html</link>
       <description>&lt;p&gt;Github pages is a good place for hosting static blog on the internet, youcan
 publish your web content on this platform for free.In addition to suporting
 HTML,Github pages aslo support jekyll , a simple static site generator writing 
@@ -109,17 +109,17 @@ you can use include tag to add some code to   ~/ _  layout/post.html at the
 bottom of this file. typing the code as follow : &lt;/p&gt;
 </description>
       <pubDate>Sun, 27 Apr 2014 00:00:00 +0800</pubDate>
-      <guid>kongfan.github.io/update/2014/04/27/Adding-DISQUS-to-github-pages.html</guid>
+      <guid>http://kongfan.github.io/update/2014/04/27/Adding-DISQUS-to-github-pages.html</guid>
       <dc:date>2014-04-27T00:00:00+08:00</dc:date>
     </item>
     <item>
       <title>Welcome to Jekyll!</title>
-      <link>kongfan.github.io/jekyll/update/2014/04/23/welcome-to-jekyll.html</link>
+      <link>http://kongfan.github.io/jekyll/update/2014/04/23/welcome-to-jekyll.html</link>
       <description>&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 </description>
       <pubDate>Wed, 23 Apr 2014 02:34:18 +0800</pubDate>
-      <guid>kongfan.github.io/jekyll/update/2014/04/23/welcome-to-jekyll.html</guid>
+      <guid>http://kongfan.github.io/jekyll/update/2014/04/23/welcome-to-jekyll.html</guid>
       <dc:date>2014-04-23T02:34:18+08:00</dc:date>
     </item>
     <dc:date>2014-05-01T00:00:00+08:00</dc:date>

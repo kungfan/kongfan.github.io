@@ -17,9 +17,9 @@
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/"> Home </a></h1>
+		  <h1 class="title"><a href="/"> { KongFan } </a></h1>
             <a class="extra" href="/">Blog</a>
-            <a class="extra" href="/">About</a>
+            <a class="extra" href="/">『 About 』</a>
           </div>
 
           {{ content }}
@@ -37,7 +37,8 @@
                 <a href="mailto:kongfan@outlook.com">Contact kongfan</a><br />
               </p>
             </div>
-	    <div>{% include creative_common_lisences.html %}</div>
+	    <div class="rss"><a href="rss.xml"><p>RSS FEED</p></a></div> 
+	    <div><p>{% include creative_common_lisences.html %}</p></div>
           </div>
         </div>
         {% include plugins.html %}

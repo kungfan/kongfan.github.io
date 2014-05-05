@@ -113,13 +113,16 @@ a:visited { color: #a0a; }
 }
 
 .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
+  margin-top: 0px ;
+  margin-bottom: 0px ;
+  height: 0px;
+  border: 0px ;
+  text-align: right ;
+  float: right ;
 }
 
-.footer .rss img {
-  border: 0;
+.footer .rss a{
+  text-decoration: none;
 }
 
 /*****************************************************************************/
