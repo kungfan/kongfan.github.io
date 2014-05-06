@@ -8,42 +8,43 @@ Bash, which is the default shell in Linux contains a whole lot of key bindings w
     Sometimes, you must use ⎋ Esc instead of ⎇ Alt, because the ⎇ Alt shortcut conflicts with another shortcut.
 
     Tab ↹    : Autocompletes from the cursor position.
-    ^ Ctrl+a : Moves the cursor to the line start (equivalent to the key ⇱ Home).
-    ^ Ctrl+b : Moves the cursor back one character (equivalent to the key ←).
-    ^ Ctrl+c : Sends the signal SIGINT to the current task, which aborts and closes it.
+    ^ Ctrl+a : Moves the cursor to the line start .
+    ^ Ctrl+b : Moves the cursor back one character .
+    ^ Ctrl+c : Sends the signal SIGINT to the current task.
     ^ Ctrl+d : Sends an EOF marker, which  closes the current shell . 
-    ^ Ctrl+e : (end) moves the cursor to the line end (equivalent to the key ⇲ End).
-    ^ Ctrl+f : Moves the cursor forward one character (equivalent to the key →).
+    ^ Ctrl+e : (end) moves the cursor to the line end (⇲ End).
+    ^ Ctrl+f : Moves the cursor forward one character (key →).
     ^ Ctrl+g : Abort the research and restore the original line.
     ^ Ctrl+h : Deletes the previous character (same as backspace).
     ^ Ctrl+i : Equivalent to the tab key.
     ^ Ctrl+j : Equivalent to the enter key.
-    ^ Ctrl+k : Clears the line content after the cursor and copies it into the clipboard.
-    ^ Ctrl+l : Clears the screen content (equivalent to the command clear).
-    ^ Ctrl+n : (next) recalls the next command (equivalent to the key ↓).
+    ^ Ctrl+k : Clears the line content the cursor and copies it.
+    ^ Ctrl+l : Clears the screen content (command clear).
+    ^ Ctrl+n : (next) recalls the next command (key ↓).
     ^ Ctrl+o : Executes the found command from history
-    ^ Ctrl+p : (previous) recalls the prior command (equivalent to the key ↑).
-    ^ Ctrl+r : (research) recalls the last command including the specified character(s). 
+    ^ Ctrl+p : (previous) recalls the prior command (key ↑).
+    ^ Ctrl+r : (research) recalls the last command .
     ^ Ctrl+s : Go back to the next more recent command of the research .
     ^ Ctrl+t : Transpose the previous two characters.
-    ^ Ctrl+u : Clears the line content before the cursor and copies it into the clipboard.
+    ^ Ctrl+u : Clears the line content before the cursor and copies it .
     ^ Ctrl+v : If the next input is also a control sequence, type it literally 
     ^ Ctrl+w : Clears the word before the cursor and copies it into the clipboard.
-    ^ Ctrl+x ^ Ctrl+e : Edits the current line in the $EDITOR program, or vi if undefined.
+    ^ Ctrl+x ^ Ctrl+e : Edits the current line in the $EDITOR program.
     ^ Ctrl+x ^ Ctrl+r : Read in the contents of the inputrc file,
                and incorporate any bindings or variable assignments found there.
     ^ Ctrl+x ^ Ctrl+u : Incremental undo, separately remembered for each line.
-    ^ Ctrl+x ^ Ctrl+v : Display version information about the current instance of bash.
+    ^ Ctrl+x ^ Ctrl+v : Display version about bash.
     ^ Ctrl+x ^ Ctrl+x : Alternates the cursor with its old position. .
     ^ Ctrl+y : (yank) adds the clipboard content from the cursor position.
-    ^ Ctrl+z : Sends the signal SIGTSTP to the current task, which suspends it. 
+    ^ Ctrl+z : Sends the signal SIGTSTP to the current task.
     ^ Ctrl+_ : Incremental undo, separately remembered for each line.
     ⎇ Alt+b : (backward) moves the cursor backward one word.
-    ⎇ Alt+c : Capitalizes the character under the cursor and moves to the end of the word.
+    ⎇ Alt+c : Capitalizes the character under the cursor  
+              and moves to the end of the word.
     ⎇ Alt+d : Cuts the word after the cursor.
     ⎇ Alt+f : (forward) moves the cursor forward one word.
     ⎇ Alt+l : Lowers the case of every character 
-    ⎇ Alt+r : Cancels the changes and puts back the line as it was in the history.
+    ⎇ Alt+r : Cancels the changes .
     ⎇ Alt+u : Capitalizes every character 
     ⎇ Alt+. : Insert the last argument to the previous command 
 

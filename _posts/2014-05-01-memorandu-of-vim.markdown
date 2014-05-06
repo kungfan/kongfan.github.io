@@ -37,7 +37,8 @@ There is a memorandum reminding me of vim
     /\> /\< /\< \>
     *
     ^ $ . \
-    option : ignorecase noignorecase hlsearch nohlsearch incsearch nowrapscan
+    option : ignorecase noignorecase hlsearch  
+              nohlsearch incsearch nowrapscan
     
     marks
     `` '' 

@@ -21,8 +21,15 @@ directory and copy the "generic code" to this file . it look like this :
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    /* * * required: replace example with your forum shortname * * */
+    /* * *
+     CONFIGURATION VARIABLES:
+     EDIT BEFORE PASTING INTO YOUR WEBPAGE
+    * * */
+
+    /* * *
+    required: replace example with your forum shortname
+    * * */
+
     var disqus_shortname = 'kongfan';
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
