@@ -16,9 +16,9 @@ layout: nil
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>{{ post.url }}</link>
+      <link>kongfan.github.io{{ post.url }}</link>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <guid>kongfan.github.io{ post.url }}</guid>
+      <guid>kongfan.github.io{{ post.url }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
     {% endfor %}
