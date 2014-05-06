@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2014-05-01
+location: Huang Gang
 ---
 
 <!-- This is an english edition document of markdown syntax : -->

@@ -1,6 +1,5 @@
 ---
 layout: post
-categories: jekyll update
 ---
 
 Bash, which is the default shell in Linux contains a whole lot of key bindings which makes it really easy to use.  The following [Bash](http://en.wikipedia.org/wiki/Bash_shell) shortcuts work when using default (Emacs) key bindings. Vi-bindings can be enabled by running set -o vi.

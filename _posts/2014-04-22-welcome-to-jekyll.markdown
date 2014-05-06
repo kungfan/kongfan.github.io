@@ -2,8 +2,6 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2014-04-22 18:34:18
-bloglang: en
-categories: jekyll update
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

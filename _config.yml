@@ -2,3 +2,6 @@ name: Kongfan's blog
 markdown: redcarpet
 pygments: true
 url: http://kongfan.github.io
+gems:
+- rssgenerator
+- jekyll-sitemap

@@ -1,6 +1,5 @@
 ---
 layout: post
-categories: update
 ---
 
 Github pages is a good place for hosting static blog on the internet, youcan
