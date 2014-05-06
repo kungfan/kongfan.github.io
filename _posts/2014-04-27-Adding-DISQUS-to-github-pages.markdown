@@ -70,7 +70,7 @@ In the third step , you need to know something about [liquid][1] and [yaml][2].
 you can use include tag to add some code to   ~/ _  layout/post.html at the
 bottom of this file. typing the code as follow : 
 
-`
+
 
 {% highlight html %}
 ---
@@ -86,7 +86,7 @@ layout: default
 { % include count_comment.html % }
 {% endhighlight html %}
 
-`
+
 [1]:http://liquidmarkup.org/
 [2]:http://zh.wikipedia.org/zh-cn/YAML
 
