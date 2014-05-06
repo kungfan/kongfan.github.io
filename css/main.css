@@ -37,7 +37,8 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 .posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
+  padding: 0;
 }
 
 .posts li {
