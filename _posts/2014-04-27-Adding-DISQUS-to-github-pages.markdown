@@ -77,13 +77,13 @@ bottom of this file. typing the code as follow :
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
+<p class="meta">{% raw %}{{ page.date | date_to_string }}{% endraw %}</p>
 <div class="post">
-{{ content }}
+{% raw %}{{ content }}{% endraw %}
 </div>
-{ % include disqus_comment.html % }
-{ % include count_comment.html % }
+{% raw %}{% include disqus_comment.html %}{% endraw %}
+{% raw %}{% include count_comment.html %}{% endraw %}
+
 {% endhighlight html %}
 
 
