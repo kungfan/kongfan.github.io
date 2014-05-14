@@ -123,6 +123,16 @@ a:visited { color: #a0a; }
   text-decoration: none;
 }
 
+.footer .rss img{
+  margin-right: 8px;
+  padding: 0;
+  text-align: right;
+} 
+
+
+
+
+
 /*****************************************************************************/
 /*
 /* Posts
