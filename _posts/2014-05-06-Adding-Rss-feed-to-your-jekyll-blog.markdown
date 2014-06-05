@@ -10,6 +10,7 @@ just creat a new file named rss.xml in your directory *(in the same directory
 with _config.yml)* , and paste the code below into it:
 
 {% highlight xml %}
+
 ---
 layout: nil
 ---
@@ -41,6 +42,7 @@ layout: nil
     {% endraw %}
   </channel>
 </rss>
+
 {% endhighlight xml %}
 
 That’s it. Jekyll will keep this file updated whenever you publish new posts
